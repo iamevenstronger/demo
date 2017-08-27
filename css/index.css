@@ -1,0 +1,20 @@
+.bgColor {
+    background-color: #8080ff ;
+}
+.demoHeader{
+    color : #090980 ;
+}
+.feilds{
+    /* first parm => border thickness
+    second => type of border
+    third => color of border */
+   border: 3px solid #090980;
+}
+.btn {
+    background-color: #090980 ;
+    color : #ffffff ;
+    width : 100px ;
+    height : 30px ;
+    font-size : 14pt ;
+    border : none ;
+}

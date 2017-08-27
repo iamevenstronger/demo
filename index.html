@@ -1,7 +1,20 @@
-<html>
-    <head></head>
-    <body>
+<html> <!-- HTML tag a document contains-->
+    <head>
+      <title>demo Document</title><!-- Title of the document --> 
+      <!-- now we included our CSS file in HTML doc -->
+      <link rel="stylesheet" href="css/index.css"> 
+      <!-- now we included our Javascript file in HTML doc -->
+      <script src="js/index.js"></script>
+    </head><!-- header contains title-->
+    <!-- class attribute will deploy your css -->
+    <body class="bgColor">
         <!-- header tag --> 
-        <h1> Demo works!!</h1>
+        <h1 class="demoHeader"> Demo works!!</h1>
+        <!-- input feild 1 -->
+        <input type="text" class="feilds" id="variable1" />
+        <!-- input feild 2 -->
+        <input type="text" class="feilds" id="variable2" />
+        <!-- you have a button -->
+        <button class="btn" onclick="printData();">click here</button>
     </body>
 </html>
